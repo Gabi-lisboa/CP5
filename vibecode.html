@@ -1,0 +1,221 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aroma & Brasa — Café & Restaurante</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600&family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vibecode.css">
+</head>
+<body>
+
+<header>
+    <a class="logo" href="#inicio">Aroma <i>&</i> Brasa</a>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#ambiente">Ambiente</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="botao-header" href="#cardapio">Ver cardápio</a>
+</header>
+
+<main>
+
+    <!-- INÍCIO -->
+    <section class="hero panel" id="inicio">
+        <div class="wrap">
+            <div class="texto">
+                <p class="tag">Bem-vindo ao nosso restaurante</p>
+
+                <h1>
+                    Aproveite uma comida
+                    <i>saudável</i> e deliciosa.
+                </h1>
+
+                <p>
+                    Sabores especiais, ingredientes frescos
+                    e momentos preparados com carinho.
+                </p>
+
+                <div class="botoes">
+                    <a class="botao principal" href="#cardapio">
+                        Ver cardápio
+                    </a>
+
+                    <a class="botao" href="#contato">
+                        Reservar mesa
+                    </a>
+                </div>
+
+                <div class="horarios">
+                    <strong>Estamos abertos</strong>
+                    <p>Segunda a sábado: 09h às 21h</p>
+                    <p>Domingo: 10h às 18h</p>
+                </div>
+
+                <div class="estatisticas">
+                    <div>
+                        <strong>250+</strong>
+                        <span>Pratos</span>
+                    </div>
+
+                    <div>
+                        <strong>75+</strong>
+                        <span>Parceiros</span>
+                    </div>
+
+                    <div>
+                        <strong>15k+</strong>
+                        <span>Clientes felizes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagem-principal">
+                <img src="img/brunch_da_casa.jpg" alt="Prato especial do restaurante">
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDÁPIO -->
+    <section class="produtos panel" id="cardapio">
+        <div class="wrap">
+            <p class="tag">Nosso cardápio</p>
+            <h2>Escolha o seu favorito</h2>
+
+            <!-- Cada radio representa um produto -->
+            <input type="radio" name="produto" id="p1" checked>
+            <input type="radio" name="produto" id="p2">
+            <input type="radio" name="produto" id="p3">
+            <input type="radio" name="produto" id="p4">
+            <input type="radio" name="produto" id="p5">
+            <input type="radio" name="produto" id="p6">
+            <input type="radio" name="produto" id="p7">
+
+            <div class="carrossel">
+
+                <div class="produto produto1">
+                    <img src="img/cafe_especial.jpg" alt="Café especial">
+                    <h3>Café Especial</h3>
+                    <p>R$ 12,00</p>
+                </div>
+
+                <div class="produto produto2">
+                    <img src="img/croissant.jpg" alt="Croissant">
+                    <h3>Croissant</h3>
+                    <p>R$ 14,00</p>
+                </div>
+
+                <div class="produto produto3">
+                    <img src="img/brunch_da_casa.jpg" alt="Brunch da casa">
+                    <h3>Brunch da Casa</h3>
+                    <p>R$ 48,00</p>
+                </div>
+
+                <div class="produto produto4">
+                    <img src="img/risoto_cogumelos.jpg" alt="Risoto de cogumelos">
+                    <h3>Risoto de Cogumelos</h3>
+                    <p>R$ 52,00</p>
+                </div>
+
+                <div class="produto produto5">
+                    <img src="img/torta_chocolate.jpg" alt="Torta de chocolate">
+                    <h3>Torta de Chocolate</h3>
+                    <p>R$ 22,00</p>
+                </div>
+
+                <div class="produto produto6">
+                    <img src="img/cha_gelado.jpg" alt="Chá gelado">
+                    <h3>Chá Gelado</h3>
+                    <p>R$ 11,00</p>
+                </div>
+
+                <div class="produto produto7">
+                    <img src="img/pao_artesanal.jpg" alt="Pão artesanal">
+                    <h3>Pão Artesanal</h3>
+                    <p>R$ 16,00</p>
+                </div>
+
+            </div>
+
+            <div class="navegacao">
+                <label for="p1">1</label>
+                <label for="p2">2</label>
+                <label for="p3">3</label>
+                <label for="p4">4</label>
+                <label for="p5">5</label>
+                <label for="p6">6</label>
+                <label for="p7">7</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- AMBIENTE -->
+    <section class="ambiente panel" id="ambiente">
+        <div class="wrap">
+            <p class="tag">Conheça nosso espaço</p>
+            <h2>Cantos para se demorar</h2>
+
+            <p class="descricao">
+                Luz natural, madeira, plantas e mesas para
+                aproveitar bons momentos.
+            </p>
+
+            <div class="galeria">
+                <img src="img/interior_janela.jpg" alt="Espaço junto à janela">
+                <img src="img/balcao_cafe.jpg" alt="Balcão do café">
+                <img src="img/interior_salao.jpg" alt="Salão do restaurante">
+                <img src="img/mesa_detalhe.jpg" alt="Mesa decorada">
+                <img src="img/terraco.jpg" alt="Terraço">
+                <img src="img/salao_banco_verde.jpg" alt="Salão com banco verde">
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato panel" id="contato">
+        <div class="wrap">
+            <div>
+                <p class="tag">Entre em contato</p>
+                <h2>Vamos tomar um café?</h2>
+
+                <div class="informacoes">
+                    <p><strong>Endereço</strong><br>
+                    Rua das Acácias, 123 — Centro, Cidade/UF</p>
+
+                    <p><strong>Horários</strong><br>
+                    Segunda a sábado: 09h às 21h<br>
+                    Domingo: 10h às 18h</p>
+
+                    <p><strong>Telefone</strong><br>
+                    (00) 00000-0000</p>
+
+                    <p><strong>E-mail</strong><br>
+                    contato@aromaebrasa.com</p>
+                </div>
+
+                <a class="botao principal" href="https://wa.me/5500000000000">
+                    Fale conosco
+                </a>
+            </div>
+
+            <img class="fachada" src="img/fachada.jpg" alt="Fachada do restaurante">
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Aroma & Brasa — Projeto fictício
+</footer>
+
+</body>
+</html>
+```
